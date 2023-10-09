@@ -1,56 +1,56 @@
 [
     {
         "id": 1,
-        "image": "img/products/n1.jpg",
+        "image": "image/products/n1.jpg",
         "brand": "Nike",
         "description": "Classic Running Shoes",
         "price": "$99"
     },
     {
         "id": 2,
-        "image": "img/products/n2.jpg",
+        "image": "image/products/n2.jpg",
         "brand": "Adidas",
         "description": "TechFit Sports T-Shirt",
         "price": "$45"
     },
     {
         "id": 3,
-        "image": "img/products/n3.jpg",
+        "image": "image/products/n3.jpg",
         "brand": "Puma",
         "description": "Sleek Basketball Sneakers",
         "price": "$120"
     },
     {
         "id": 4,
-        "image": "img/products/n4.jpg",
+        "image": "image/products/n4.jpg",
         "brand": "Puma",
         "description": "Sleek Basketball Sneakers",
         "price": "$120"
     },
     {
         "id": 5,
-        "image": "img/products/n5.jpg",
+        "image": "image/products/n5.jpg",
         "brand": "Puma",
         "description": "Sleek Basketball Sneakers",
         "price": "$120"
     },
     {
         "id": 6,
-        "image": "img/products/n6.jpg",
+        "image": "image/products/n6.jpg",
         "brand": "Puma",
         "description": "Sleek Basketball Sneakers",
         "price": "$120"
     },
     {
         "id": 7,
-        "image": "img/products/n7.jpg",
+        "image": "image/products/n7.jpg",
         "brand": "Puma",
         "description": "Sleek Basketball Sneakers",
         "price": "$120"
     },
     {
         "id": 8,
-        "image": "img/products/n8.jpg",
+        "image": "image/products/n8.jpg",
         "brand": "Puma",
         "description": "Sleek Basketball Sneakers",
         "price": "$120"
