@@ -18,7 +18,7 @@ if (close) {
 // Products section
 let httpProducts = new XMLHttpRequest(); // Rename the variable
 
-httpProducts.open("get", "/js/products.json", true);
+httpProducts.open("get", "../js/products.json", true);
 httpProducts.send();
 
 httpProducts.onload = function () {
@@ -54,7 +54,7 @@ httpProducts.onload = function () {
 // Arrivals section
 let httpArrivals = new XMLHttpRequest(); // Rename the variable
 
-httpArrivals.open("get", "/js/Arrivals.json", true);
+httpArrivals.open("get", "../js/Arrivals.json", true);
 httpArrivals.send();
 
 httpArrivals.onload = function () {
