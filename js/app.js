@@ -18,7 +18,11 @@ if (close) {
 // Products section
 let httpProducts = new XMLHttpRequest(); // Rename the variable
 
-httpProducts.open("get", "https://aqibproductive.github.io/api/products.json", true);
+httpProducts.open(
+  "get",
+  "https://aqibproductive.github.io/api/products.json",
+  true
+);
 httpProducts.send();
 
 httpProducts.onload = function () {
@@ -28,7 +32,7 @@ httpProducts.onload = function () {
 
     for (let item of products) {
       output += `
-                <div class="pro">
+                <div class="pro" onclick="window.location.href='sproduct.html';">
                     <img src='${item.image}' alt="">
                     <div class="desc">
                         <span>${item.brand}</span>
@@ -54,7 +58,11 @@ httpProducts.onload = function () {
 // Arrivals section
 let httpArrivals = new XMLHttpRequest(); // Rename the variable
 
-httpArrivals.open("get", "https://aqibproductive.github.io/api/Arrivals.json", true);
+httpArrivals.open(
+  "get",
+  "https://aqibproductive.github.io/api/Arrivals.json",
+  true
+);
 httpArrivals.send();
 
 httpArrivals.onload = function () {
@@ -64,7 +72,7 @@ httpArrivals.onload = function () {
 
     for (let item of products) {
       output += `
-                <div class="pro">
+                <div class="pro" onclick="window.location.href='sproduct.html';">
                     <img src='${item.image}' alt="">
                     <div class="desc">
                         <span>${item.brand}</span>
@@ -85,4 +93,22 @@ httpArrivals.onload = function () {
 
     document.querySelector(".section-pa1 #data-output2").innerHTML = output;
   }
+};
+
+// prodetails section
+
+var MainImage = document.getElementById("mainImage");
+var smalling = document.getElementsByClassName("small-image");
+
+smalling[0].onclick = function () {
+  MainImage.src = smalling[0].src;
+};
+smalling[1].onclick = function () {
+  MainImage.src = smalling[1].src;
+};
+smalling[2].onclick = function () {
+  MainImage.src = smalling[2].src;
+};
+smalling[3].onclick = function () {
+  MainImage.src = smalling[3].src;
 };
